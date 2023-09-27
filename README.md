@@ -6,7 +6,7 @@ Start app:
 - install and /open docker
 - enter in terminal: ./vendor/bin/sail up
 - connect app to data base
-    - configure env (hostname: host.docker.internal, DB_DATABASE: [webscraper])
+    - configure .env file ( hostname = [host.docker.internal], DB_DATABASE = [webscraper], DB_password = [password], DB_username=[root])
 - open new terminal window, enter: sail artisan migrate
 - open browser
 - enter url: localhost/webscraper_ah
