@@ -18,7 +18,7 @@
                                 <span class="pl-4 font-weight-light text-secondary">{{ $item->product_size }}</span>
                                 <div class="card-body">
                                     <h5 class="card-title">{{ $item->product_name }}</h5>
-                                    <p class="card-text">{{ $item->product_price }}</p>
+                                    <p class="card-text">€ {{ $item->product_price }}</p>
                                     <span class="card-text fw-lighter badge badge-info">{{ !($item->product_promotion === 'no Promotion') ? $item->product_promotion : '' }}</span>
                                     <a href="{{ $item->product_link }}" class="btn btn-primary">view Details</a>
                                 </div>
