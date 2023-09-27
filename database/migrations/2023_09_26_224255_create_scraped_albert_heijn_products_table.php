@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('scraped_albert_heijn_products', function (Blueprint $table) {
             $table->id();
-            $table->string('product_name')->nullable()->unique();
+            $table->string('product_name')->nullable();
             $table->float('product_price',8,2)->nullable();
             $table->string('product_image')->nullable();
             $table->string('product_link')->nullable();

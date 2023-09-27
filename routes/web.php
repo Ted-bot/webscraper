@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/webscraper_ah', [ScraperController::class, 'index']);
-Route::get('/products', [ScraperController::class, 'scrapedProducts']);
+Route::get('/products', [ScraperController::class, 'scrapedProducts'])->name('products');

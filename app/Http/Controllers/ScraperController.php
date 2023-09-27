@@ -14,12 +14,13 @@ class ScraperController extends Controller
     {
         Roach::collectSpider(AlbertHeijnSpider::class);
 
-        return redirect()->route('webscraper_ah');
+        return redirect()->route('products');
+
     }
 
     public function scrapedProducts()
     {
-        $ah_products = ScrapedAlbertHeijnProduct::all();
+        $ah_products = ScrapedAlbertHeijnProduct::paginate(6);
 
         return view('components.products',compact('ah_products'));
     }
