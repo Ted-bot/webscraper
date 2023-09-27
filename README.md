@@ -3,7 +3,7 @@ Start app:
 - download app/ folder
 - open terminal
 - open folder within terminal
-- install/open docker
+- install and /open docker
 - enter in terminal: ./vendor/bin/sail up
 - open browser
 - enter url: localhost/
