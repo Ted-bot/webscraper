@@ -6,6 +6,6 @@ Start app:
 - install and /open docker
 - enter in terminal: ./vendor/bin/sail up
 - open browser
-- enter url: localhost/
-- you will get redirected to url: localhost/webscraper
+- enter url: localhost/webscraper_ah
+- you will get redirected to url: localhost/products
 - view products
